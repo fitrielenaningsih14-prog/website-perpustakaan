@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EFE6;
+    color: #4E342E;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #795548;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+nav {
+    background-color: #5D4037;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D7CCC8;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #FFFCF7;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #D7CCC8;
+    box-shadow: 0 3px 10px rgba(78, 52, 46, 0.10);
+}
+
+h2 {
+    color: #795548;
+    border-bottom: 2px solid #BCAAA4;
+    padding-bottom: 8px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+input[type="search"] {
+    width: 70%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #BCAAA4;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #795548;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4E342E;
+}
+
+a {
+    color: #795548;
+}
+
+nav a {
+    color: white;
+}
+
+footer {
+    background-color: #5D4037;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    input[type="search"] {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+}
